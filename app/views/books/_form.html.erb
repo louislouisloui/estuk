@@ -8,7 +8,7 @@
     <%= f.input :price, required: true, label: false, placeholder: "Price", input_html: { class: "form-control"}  %>
     
     <div class="check-box text-center">
-      <p>Availability</p><%= f.input :availability, label:false,  required: true, input_html: { class: "form-control"} %></div>
+      <p>Availability</p><%= f.input :availability, label:false,  required: false, input_html: { class: "form-control"} %></div>
     <%= f.button :submit, class: "btn btn-primary btn-block" %>
   
 <% end %>
